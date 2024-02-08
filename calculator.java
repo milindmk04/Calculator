@@ -13,6 +13,8 @@ public class calculator {
         subtraction(a, b);
         division(a, b);
         multiplication(a, b);
+        square(a);
+        cube(a);
     }
 
     public static void addition(int a, int b) {
@@ -29,5 +31,13 @@ public class calculator {
 
     public static void multiplication(int a, int b) {
         System.out.println("Multiplication:"+(a*b));
+    }
+
+    public static void square(int a) {
+        System.out.println("square"+(a*a));
+    }
+
+    public static void cube(int a) {
+        System.out.println("cube"+(a*a*a));
     }
 }
